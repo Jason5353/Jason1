@@ -21,7 +21,7 @@
       user: "{{bigip_user}}"
       password: "{{bigip_pass}}"
       method: "{{uri_method}}"
-      body: "{{ lookup('file','.as3-dec.json') }}"
+      body: "{{ lookup('file','mnt/c/Users/jason/Documents/Projects/Jason1/as3-dec.json') }}"
       force_basic_auth: yes
       status_code: 201
       body_format: json
